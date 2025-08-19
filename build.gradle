@@ -1,0 +1,3 @@
+plugins{ id 'eclipse'; id 'idea'}
+allprojects{repositories{mavenCentral()}}
+subprojects{ext{gdxVersion='1.12.1'}}
